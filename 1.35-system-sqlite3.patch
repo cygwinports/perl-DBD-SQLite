@@ -1,0 +1,11 @@
+--- origsrc/DBD-SQLite-1.35/Makefile.PL	2011-11-28 18:05:51.000000000 -0600
++++ src/DBD-SQLite-1.35/Makefile.PL	2012-03-02 01:31:55.951317400 -0600
+@@ -124,7 +124,7 @@ SCOPE: {
+ # a system sqlite is also sophisticated enough to have a patching system
+ # that can change the if ( 0 ) to if ( 1 )
+ my ($sqlite_local, $sqlite_base, $sqlite_lib, $sqlite_inc);
+-if ( 0 ) {
++if ( 1 ) {
+ 	require File::Spec;
+ 	if ( $sqlite_base = (grep(/SQLITE_LOCATION=.*/, @ARGV))[0] ) {
+ 		$sqlite_base =~ /=(.*)/;

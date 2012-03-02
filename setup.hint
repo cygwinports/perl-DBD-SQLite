@@ -1,5 +1,5 @@
 category: Perl Database
-requires: perl perl-DBI libsqlite3_0
+requires: libgcc1 libssp0 perl perl-DBI
 sdesc: "SQLite3 driver for the Perl DBI module"
 ldesc: "A Perl implementation of SQLite version 3, for use within the 
 Perl DBI framework."
