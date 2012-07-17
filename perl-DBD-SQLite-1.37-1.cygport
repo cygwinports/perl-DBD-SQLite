@@ -1,8 +1,0 @@
-CPAN_AUTHOR=adamk
-inherit perl
-
-# Missing symbols: sqlite3_column_database_name, sqlite3_column_table_name
-#                  sqlite3_table_column_metadata
-#PATCH_URI="1.35-system-sqlite3.patch"
-
-DIFF_EXCLUDES="MYMETA.yml"
