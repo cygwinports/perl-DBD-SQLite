@@ -1,9 +1,0 @@
-CPAN_AUTHOR=adamk
-inherit perl
-
-PATCH_URI="1.35-system-sqlite3.patch"
-
-DEPEND="perl(DBI)
-	pkgconfig(sqlite3)"
-
-DIFF_EXCLUDES="MYMETA.yml"
