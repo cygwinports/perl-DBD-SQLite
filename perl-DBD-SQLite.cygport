@@ -3,15 +3,13 @@ inherit perl
 
 NAME="perl-DBD-SQLite"
 VERSION=1.37
-RELEASE=3
+RELEASE=4
 CATEGORY="Perl"
 SUMMARY="SQLite3 driver for the Perl DBI module"
 DESCRIPTION="A Perl implementation of SQLite version 3, for use within the
 Perl DBI framework."
 
-# Missing symbols: sqlite3_column_database_name, sqlite3_column_table_name
-#                  sqlite3_table_column_metadata
-#PATCH_URI="1.35-system-sqlite3.patch"
+PATCH_URI="1.35-system-sqlite3.patch"
 
 DEPEND="perl(DBI)
 	pkgconfig(sqlite3)"
